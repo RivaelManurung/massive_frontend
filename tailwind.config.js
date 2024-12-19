@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}", // Pastikan Tailwind membaca semua file React
   ],
@@ -9,4 +9,4 @@ module.exports = {
   plugins: [
     require('daisyui'), // Tambahkan plugin DaisyUI
   ],
-}
+};
